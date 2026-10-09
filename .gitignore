@@ -1,0 +1,27 @@
+# --- Secretos (lo más importante) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials
+.aws/
+
+# --- Entorno virtual de Python ---
+venv/
+.venv/
+env/
+
+# --- Cachés de Python ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Logs y temporales ---
+*.log
+*.tmp
+
+# --- Sistema y editores ---
+.DS_Store
+.idea/
+.vscode/
